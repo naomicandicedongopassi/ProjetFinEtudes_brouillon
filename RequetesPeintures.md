@@ -1,6 +1,3 @@
-# Projet de fin d'études
-
-## Requêtes 
 
 Requête finale permettant d’afficher le nombre d’oeuvres de type "Peintures" publié par les musées français (100%) 
 
