@@ -1,5 +1,6 @@
+## 2) Les requêtes finales pour le nombre d’items partagés par les musées français de type “Peintures” sur Wikidata 
 
-Requête finale permettant d’afficher le nombre d’oeuvres de type "Peintures" publié par les musées français (100%) 
+La première requête va permettre d’afficher le nombre d’items de type “Peintures” partagés par quelques musées en France. Le résultat est affiché sous la forme d’une liste des musées.  
 
 ```sparql
 SELECT ?CollectionLabel (COUNT(?item) AS ?count)
@@ -24,7 +25,7 @@ ORDER BY DESC (?count)
 
 
 **************
-Requête finale permettant d’afficher le nombre d’oeuvres de type "Peintures" publié par les vingt musées français 
+La seconde requête va permettre d’afficher le nombre d’items de type “Peintures” partagés uniquement par les vingt premiers musées sélectionnés à partir des résultats, issus de la requête précédente. Pour illustrer cela, les résultats sont affichés sous la forme d’un graphique, suite à l’ajout de la fonction “#defaultView:BarChart” dans la requête. 
 
 ```sparql 
 #defaultView:BarChart
