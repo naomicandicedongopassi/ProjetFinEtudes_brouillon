@@ -1,8 +1,9 @@
 # Projet de fin d'études (version brouillon) 
 
-## Requêtes 
+## 1. Les requêtes finales pour le nombre d’items partagés par les musées français de type “Sculptures” sur Wikidata
 
-Requête finale permettant d’afficher le nombre d’oeuvres de type "Sculptures" publié par les musées français (100%)
+
+Requête finale permettant d’afficher le nombre d’items de type "Sculptures" publié par les musées français (100%)
 
 
 ```sparql
